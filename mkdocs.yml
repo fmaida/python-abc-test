@@ -1,0 +1,26 @@
+site_name: "Python Italia"
+
+theme:
+    name: "cinder"
+    logo: "_assets/favicon.png"
+    favicon: "_assets/favicon.png"
+    language: "it"
+    custom_dir: "_theme"
+    palette:
+        primary: "Blue Grey"
+        accent: "Cyan"
+
+extra_css:
+  - "_assets/_css/extra.css"
+  
+markdown_extensions:
+  - toc
+  - meta
+  - codehilite:
+          guess_lang: False
+          use_pygments: True
+          noclasses: True
+          linenums: False
+          pygments_style: "monokai"
+
+copyright: Copyright &copy; 2019 Python Italia
